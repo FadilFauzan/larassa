@@ -58,27 +58,6 @@ A responsive website for showcasing and managing Larassa Coffee and Eat — a co
 
 ---
 
-## Setup & Installation
-
-```bash
-git clone https://github.com/fadilfauzan/larassa.git
-cd larassa
-composer install
-npm install && npm run dev
-cp .env.example .env
-php artisan key:generate
-```
-Update `.env` with DB credentials, then:
-
-```bash
-php artisan migrate --seed
-php artisan serve
-```
-
-Visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
----
-
 ## File Structure (Simplified)
 
 ```
